@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+}
+
+.coloum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60%;
+}
+
+.image {
+    width: 50%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 370px;
+    height: 50px;
+    background-color: #19B5FE;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+}

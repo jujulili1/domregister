@@ -1,0 +1,32 @@
+@media screen and (max-width: 370px) {
+    .header {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    img {
+        display: none;
+    }
+    .image {
+        display: none;
+    }
+    .input {
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+        width: auto;
+        height: 500px;
+    }
+    .submit {
+        margin-top: 2px;
+        margin-bottom: 8px;
+        width: 150px;
+        height: 25px;
+        background-color: #19B5FE;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 9px;
+        justify-content: center;
+    }
+}
